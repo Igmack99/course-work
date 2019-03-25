@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Spring Security Example </title>
+</head>
+<body>
+
+<form method="post" action="/makebet">
+    <input type="number" name="id" placeholder="">
+    <input type="number" name="coef" placeholder="">
+    <input type="text" name="eventname" placeholder="">
+    <input type="number" name="betamount" placeholder="">
+    <input type="number" name="match_id" placeholder="">
+    <input type="number" name="users_id" placeholder="">
+    <input type="submit" name="submit" value="submit">
+</form>
+
+<form method="get" action="/bet">
+    <input type="submit" name="submit" value="submit">
+</form>
+
+<form method="post" action="/bet/delete">
+    <input type="number" name="id"/>
+    <input type="submit" name="submit" value="submit">
+</form>
+
+
+
+</body>
+</html>
